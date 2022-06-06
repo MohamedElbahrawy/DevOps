@@ -1,0 +1,19 @@
+git clone <repo-link>
+for cloning repo to local at first time
+-------------------------------
+>> to commit to the repo
+git add . 
+git commit -m "message"
+git push origin <branch>
+----------------
+git checkout <branch>
+to move to the branch yu want to create another branch from it 
+----------------------
+git checkout -b <new-branch>
+create new branch 
+-------------------------
+git pull origin <main>
+pull to new branch from old branch 
+--------------------------
+<push files>
+<cmds for push commits>
