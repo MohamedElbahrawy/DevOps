@@ -17,3 +17,40 @@ pull to new branch from old branch
 --------------------------
 <push files>
 <cmds for push commits>
+---------------------------
+#####squash commits: 
+-git reset --soft main >>>> reset branch to main branch 
+-git add .
+-git commit -m "commit-message"
+-git push -f origin <branch-name>
+---------------------------
+#### stash commits
+
+git stash 
+#saved the commits without pushing it to the branch
+
+git stash list
+
+git stash pop
+git stash apply
+git stash pop stash@{the number of commit i need}
+#back the commits agin to can push it to the branch
+
+git stash drop 
+git stash drop stash@{the number of commit i need}
+#to delete the stash
+
+git stash show
+git stash show stash@{} 
+#show the files in the stash
+
+git stash clear
+#delete all the box of the stash
+-----------------------------------------------
+git restore --staged *
+---------------------------------
+git clean -n 
+
+git clean -f 
+--------------------------
+
